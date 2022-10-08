@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: antiquewhite;
+    color: #fff;
+    padding: 0 8.5%;
+    position: relative;
+
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0 10px;
+
+
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 35px;
+    cursor: pointer;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+    padding-right: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+
+}
+
+nav ul li a {
+    color: crimson;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+.text-box {
+    margin-top: 15%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+.text-box h1 {
+    font-size: 75px;
+    line-height: 160px;
+    color: black;
+
+
+}
+
+.text-box p {
+
+
+    color: black;
+
+
+}
+
+
+.text-box a {
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    color: crimson;
+    padding: 10px 30px;
+    text-decoration: none;
+
+}
+
+.text-box .btn {
+    background-color: crimson;
+    color: #fff;
+}
+
+.user {
+    width: 240px;
+    position: absolute;
+    border-radius: 9%;
+    right: 7%;
+    bottom: 30px;
+
+
+
+}
